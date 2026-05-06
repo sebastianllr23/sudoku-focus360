@@ -1,0 +1,26 @@
+{
+  "name": "sudoku-cubo",
+  "version": "1.0.0",
+  "description": "API REST para validación, diagnóstico y corrección de un Sudoku-Cubo",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "ts-node src/server.ts",
+    "test": "node --test --import tsx tests/"
+  },
+  "author": "Sebastián Leonardo López Rojas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.7",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.9.3",
+    "typescript": "^5.4.5"
+  }
+}
